@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: 5px;
+    color:#582233;
+}
+body{
+    text-align: center;
+    
+    background-image: url(../images/initial.jpg);
+    background-size:cover;
+    overflow: hidden;
+    background-position: top center;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif;
+}
+.total{
+    background-color: rgba(240,248, 255, 0.6);
+    display: inline-block;
+    padding: 50px 50px;
+    margin-top: 70px;
+    border-radius: 10px;
+}
+.input{
+    color:#582233;
+    width: 40vh;
+    background-color: rgba(255,255,255,0.6);
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    padding: 7px 7px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.submit{
+    font-size: 10px;
+    padding: 10px 10px;
+    margin-top: 10px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+.input:focus{
+    background-color: whitesmoke;
+}
+.submit:hover{
+    background-color:rgba(255,255,255,0.6); ;
+}
+.reply{
+    background-color: whitesmoke;   
+    display:none;
+    color: #582233;
+    padding-top: 6px;
+    padding-bottom: 9px;
+    border-radius: 10px;
+}
+.city{
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 7px;
+}
+.maxdesc{
+    font-size: 10px;
+    color: black;
+    opacity: 0.6;
+}
+.desctemp{
+    font-size: 10px;
+    color: black;
+    opacity: 0.6;
+}
+.linei{
+    font-size: 36px;
+    box-shadow: 5px;
+    font-weight: 900;
+    box-shadow: 5px;
+    color:#582233;
+    margin-bottom: 9px;
+}
+.lineii{
+    font-size: 30px;
+    box-shadow: 5px;
+    color:#582233;
+    margin-bottom: 10px;
+}
+.glyphicon{
+    color: black;
+}
